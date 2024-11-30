@@ -37,5 +37,12 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.15"
+  },
+  "overrides": {
+    "svgo":{
+      "nth-check":"2.1.1"
+    },"resolve-url-loader":{
+      "postcss":"8.4.49"
+    }
   }
 }
